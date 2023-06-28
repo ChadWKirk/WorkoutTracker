@@ -8,7 +8,7 @@ With that being said, this is what the app will allow you to track:
 
 - Performance from workout to workout, also over a long period of time (month, cut/bulk, year, all time, etc.)
 - Your current weight and bodyfat percentage, to be correlated with your performance at those stats.
-- bf%, weight, the amount of tonnage, sets, reps, intensity or max weight you were lifting on a certain lift or muscle group
+- bf%, weight, the amount of tonnage, sets, reps, intensity, session activity (sets/reps ex: 8-7-5-4) or max weight you were lifting on a certain lift or muscle group
 
 There will be a line graph (similar to stock chart) that you can sort by bf%, weight, the amount of tonnage, sets, reps, intensity or max weight you were lifting on a certain lift or muscle group. You can enter your bodyfat and weight as often as you would like, and the graph fills in linearly. So if you put 165lbs one day, then wait a month and put in 170lbs, the graph will go up linearly to get to 170 from 165 within a month. You can bring up unlimited amount of things to correlate on the line graph, similar to Google Trends where there are multiple lines crossing over each other.
 
@@ -33,3 +33,13 @@ You will also be able to set your split to a certain day loop. So by default it 
 You will also be able to cycle different exercises every other week or every other workout for that lift. So for example if you have Monday - Overhand Pullups, you can set it to cycle to Underhand Chinups every other week. So Monday 1 = Overhand, Monday 2 = Underhand, etc.
 
 You will also be able to make your split go more than 7 days (a week). For example, instead of doing the same training every monday, you can extend it to a 10 day split or 14 day split etc. So you could set chest and triceps to be Monday-Thursday-Sunday-Wednesday-Saturday-Monday instead of Monday-Thursday-Monday-Thursday.
+
+You will also be able to edit a current split by removing an exercise, adding an exercise or moving an exercise to a different day.
+
+Exercise data will always stay on your account even if you delete it from all of your splits. Analytics will be permanent.
+
+Notes:
+
+This is just some notes on the app's design until I move it to actual documentation or something.
+
+When first opening the app, there will be an "Add Split" button. This will allow you to create different workout splits since most people change their splits over time to either experiment with a different split or just needing to tweak it. You will be able to name each split. When viewing statistics with the line graph, you can check off the box for each split you want to be compared on the line graph.
